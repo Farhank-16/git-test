@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QR Code Centered in Box</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <style>
     /* Global styles */
     * {
@@ -30,7 +33,7 @@
 
     /* White box styling */
     .box {
-      background-color: white;
+      background-color:hsl(0, 0%, 100%);
       padding: 11px;
       border-radius: 16px;
       text-align: center;
@@ -46,8 +49,10 @@
     }
 
     .text-content {
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 14px;
+      font-family: "Outfit", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 15px;
       font-weight: 700;
       color: #2e2a4e;
       margin-top: -4px;
@@ -60,9 +65,10 @@
       margin-top: 10px;
       justify-content: center;
       font-size: 10px;
-      font-family:Arial, Helvetica, sans-serif;
+      font-family:"Outfit", serif;
       color: #7d8488;
       line-height: 1.4;
+      font-weight: 400;
     }
     
     .attribution {
